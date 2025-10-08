@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Bitcount+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
@@ -10,20 +10,20 @@
 header {
     background: #54cd91;
     text-align: center;
-    margin-bottom: 30px ;
-    border: 10px solid #54cd91;
+    margin-bottom: 30px;
+    border: 10px solid #54cdbd;
     padding: 50px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-h1{
+h1 {
     font-family: "Bitcount Prop Single Ink", system-ui;
     font-size: 60px;
 }
 
-h2{
-    font-family: "Bitcount Prop Single Ink", system-ui;
+h2,h3 {
+    font-family: "BBH Sans Bartle", sans-serif;
 }
 
 p {
@@ -32,8 +32,77 @@ p {
 }
 
 #Foto_perfil {
-     width: 300px;
+    width: 300px;
     border-radius: 30px;
     float: right;
 }
 
+main {
+    overflow: hidden;
+}
+
+section {
+    overflow: hidden;
+}
+
+#proyectos {
+    padding: 20px 30px;
+    border-top: solid 5px darkred;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.proyecto {
+    float: left;
+    width: 33%;
+    margin-top: 20px;
+}
+
+
+.proyecto img {
+    width: 90%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
+.proyecto p{
+    text-align: justify;
+    padding: 10px 20px;
+    color: black;
+}
+
+.proyecto h3{
+    color: rgb(232, 15, 22);
+    font-weight: lighter;
+}
+
+#habilidades{
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: solid 5px blueviolet;
+    margin-bottom: 30px;
+}
+
+progress{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.lista-tecnologias{
+    list-style: none;
+    display: grid;
+    margin-left: 0;
+    gap: 15px;
+}
+
+.lista-tecnologias li{
+    background-color: rgb(102, 89, 241);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
+}
