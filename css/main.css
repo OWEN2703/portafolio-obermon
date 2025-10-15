@@ -7,6 +7,11 @@
 }
 
 
+body{
+    font-family: "Bitcount Prop Single Ink", system-ui;
+}
+
+
 header {
     background: #54cd91;
     text-align: center;
@@ -22,7 +27,8 @@ h1 {
     font-size: 60px;
 }
 
-h2,h3 {
+h2,
+h3 {
     font-family: "BBH Sans Bartle", sans-serif;
 }
 
@@ -30,6 +36,36 @@ p {
     color: rgb(43, 125, 226);
     font-family: "Bebas Neue", sans-serif;
 }
+
+.bi{
+    color: rgb(255, 0, 0);
+}
+
+#menu-principal{
+ list-style: none;
+ display: flex;
+}
+
+
+nav{
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+#menu-principal a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+
+#menu-principal a:hover{
+    color: rgb(0, 0, 0);
+    background-color: beige;
+}
+
 
 #Foto_perfil {
     width: 300px;
@@ -52,10 +88,13 @@ section {
     text-align: center;
 }
 
+#Lista-proyectos {
+    display: flex;
+}
+
 .proyecto {
-    float: left;
-    width: 33%;
-    margin-top: 20px;
+ width: 33%;
+margin-top: 20px;
 }
 
 
@@ -66,43 +105,74 @@ section {
 }
 
 
-.proyecto p{
+.proyecto p {
     text-align: justify;
     padding: 10px 20px;
     color: black;
 }
 
-.proyecto h3{
+.proyecto h3 {
     color: rgb(232, 15, 22);
     font-weight: lighter;
 }
 
-#habilidades{
+#habilidades {
     overflow: hidden;
     margin-top: 20px;
     padding: 20px;
-    border-top: solid 5px blueviolet;
+    border-top: solid 5px rgb(26, 105, 253);
     margin-bottom: 30px;
 }
 
-progress{
+progress {
     width: 100px;
     height: 25px;
     border-radius: 5px;
     margin: 10px 0;
 }
 
-.lista-tecnologias{
+.lista-tecnologias {
     list-style: none;
-    display: grid;
+    display: flex;
     margin-left: 0;
     gap: 15px;
 }
 
-.lista-tecnologias li{
-    background-color: rgb(102, 89, 241);
-    color: white;
+.lista-tecnologias li {
+    background-color: rgb(19, 6, 167);
+    color: rgb(255, 255, 255);
     padding: 12px 20px;
     border-radius: 25px;
     text-align: center;
+}
+
+#Contacto{
+    padding: 40px;
+}
+
+.campos{
+    width: 70%;
+    clear: both;
+    font-size: 28px;
+}
+
+.campos label{
+    padding-right: 20px;
+}
+
+
+.campos input{
+    padding: 10px;
+    border: solid 2px rgb(8, 70, 157);
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    overflow: hidden;
+    padding: 40px 0;
+    background-color: rgb(13, 16, 18);
+    text-align: center;
+    border-top: solid 5px rgb(94, 22, 238);
 }
