@@ -123,13 +123,55 @@
             <h2>Contactame</h2>
             <p>Platicame de tu proyecto, llena los datos y te contactare</p>
             <form>
-                <div class="campos"> 
-                <label>Nombre completo</label>
-                <input type="text"  value="Owen Arturo" name="nombre" placeholder="Nombre completo"  disabled/>
-                <button>enviar</button>
+                <div class="campos">
+                    <label>Nombre completo</label>
+                    <input type="text" value="" name="nombre" placeholder="Nombre completo" disabled />
+                    <button>enviar</button>
+
+                </div>
+                <div class="campos">
+                    <label>Email</label>
+                    <input type="email" name="correo_electronico" placeholder="ejemplo@gutcancun.edu.mx" required>
+                </div>
+                <div class="campos">
+                    <label>Motivo</label>
+                    <select>
+                        <option value="1">Contacto</option>
+                        <option selected>Cotizacion</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label>Telefono</label>
+                    <input type="tel">
+                </div>
+                <div class="campos">
+                    <label>Fecha de evento</label>
+                    <input type="date">
+                </div>
+                <div class="campos">
+                    <label>Numero de empleados</label>
+                    <input type="number" />
+                </div>
+                <div class="campos">
+                    <label>Modelo de contacto</label>
+                    <input type="checkbox" class="opciones" name="modalidad"><span>WhatsApp</span>
+                    <input type="checkbox" class="opciones" name="modalidad"><span>Correo</span>
+                </div>
+                <div class="campos">
+                    <label>¿Eres cliente?</label>
+                    <input type="radio" name="es_cliente"/> <span>Si</span>
+                    <input type="radio" name="es_cliente"/> <span>No</span>
+                </div>
+                <div class="campos">
+                    <label>Fotografia</label>
+                    <input type="file" />
+                </div>
+                <div class="campos">
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
         </section>
-    </div>
     </main>
     <footer>
         <p>&copy 2025; los derechos reservados - Owen Arturo Bermon Vazquez </p>

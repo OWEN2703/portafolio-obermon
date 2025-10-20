@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
 
 
 * {
@@ -8,7 +8,7 @@
 
 
 body{
-    font-family: "Bitcount Prop Single Ink", system-ui;
+     font-family: "Comic Relief", system-ui;
 }
 
 
@@ -23,22 +23,22 @@ header {
 }
 
 h1 {
-    font-family: "Bitcount Prop Single Ink", system-ui;
+     font-family: "Comic Relief", system-ui;
     font-size: 60px;
 }
 
 h2,
 h3 {
-    font-family: "BBH Sans Bartle", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 p {
     color: rgb(43, 125, 226);
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Outfit", sans-serif;
 }
 
 .bi{
-    color: rgb(255, 0, 0);
+    color: rgb(81, 0, 255);
 }
 
 #menu-principal{
@@ -161,12 +161,29 @@ progress {
 }
 
 
-.campos input{
+
+
+.campos input,select{
     padding: 10px;
     border: solid 2px rgb(8, 70, 157);
     width: 50%;
     font-size: 20px;
     border-radius: 10px;
+}
+
+
+.campos button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+
+.campos .opciones{
+    width: 20px;
 }
 
 footer{
